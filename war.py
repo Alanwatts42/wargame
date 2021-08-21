@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 
-class Warrior:
-    """Basic soldier class, any other such classes will be subclasses of this one"""
+class Warrior(object):
+    """Basic soldier class"""
     def __init__(self):
         self.health = 50
         self.attack = 5
@@ -12,12 +12,12 @@ class Warrior:
             return True
         else:
             return False
-    
+
     def attack(self, other):
         other.health -= self.attack
         return other.health
 
-    def take_damage(self. other):
+    def take_damage(self, other):
         self.health -= other.attack
         return self.health
 
