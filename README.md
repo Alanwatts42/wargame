@@ -34,7 +34,7 @@ his other stats and characteristics are identical to that of the
 Warrior, hence why I made it a subclass of Warrior().
 
 
-## THe Armies
+## The Armies
 
 Because making the two Character classes fight one on one is so 
 boring and stupid as to cause my forehead to ache just thinking
